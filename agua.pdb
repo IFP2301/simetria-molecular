@@ -1,0 +1,4 @@
+HETATM    1  O   HOH A   1       0.000   0.000   0.000
+HETATM    2  H1  HOH A   1       0.957   0.000   0.240
+HETATM    3  H2  HOH A   1      -0.957   0.000   0.240
+END
