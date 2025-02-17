@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Molécula de Agua con Eje C2</title>
+    <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
+</head>
+<body>
+    <h2>Molécula de Agua (H₂O) - Eje C₂</h2>
+    <div id="jmolDiv" style="width: 400px; height: 400px;"></div>
+
+    <script type="text/javascript">
+        var Info = {
+            width: 400,
+            height: 400,
+            debug: false,
+            j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s",
+            script: "load agua.pdb; spacefill 20%; wireframe 0.15; draw id ejeC2 line {0 -1 0} {0 1 0} color red;",
+            use: "HTML5",
+            disableJ2SLoadMonitor: true,
+            disableInitialConsole: true
+        };
+        Jmol.getApplet("myJmol", Info);
+    </script>
+</body>
+</html>
